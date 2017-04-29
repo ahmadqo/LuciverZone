@@ -1,51 +1,27 @@
 # LuciverZone
-> D:\luciverzone>git clone https://github.com/ahmadqo/LuciverZone.git
-	Cloning into 'LuciverZone'...
-	remote: Counting objects: 3, done.
-	remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-	Unpacking objects: 100% (3/3), done.
-	Checking connectivity... done.
+## How to use github
 
-> masuk ke lusiverzone kemudian edit readme.md
+### Yang perlu dilakukan sekali saja untuk inisial github
+	$git config --global user.email "email github"
+	$git config --global user.name "nama akun github"
 
-> D:\luciverzone>cd LuciverZone
+### Clone repo yang akan di manage
+	$git clone <url dari repo>
 
-> D:\luciverzone\LuciverZone>git add -A
+### Masuk kedalam folder yang telah diclone
+	$cd NamaFolder
 
-> D:\luciverzone\LuciverZone>git commit -m "initial commit"
+### Tambahkan file kedalam folder
 
-	*** Please tell me who you are.
-	
-	Run
+### Tambahkan file kedalam git untuk di commit
+	$git add -A
 
-  	git config --global user.email "you@example.com"
-  	git config --global user.name "Your Name"
+### Commit (untuk menginisialisasi file yang akan di push)
+	$git commit -m "...ini adalah pesan yang akan di sampaikan..."
 
-	to set your account's default identity.
-	Omit --global to set the identity only in this repository.
+### Push kedalam repo
+	$git push origin master
 
-	fatal: unable to auto-detect email address (got 'student@student-PC51.(none)')
-
-> D:\luciverzone\LuciverZone> git config --global user.email "ahmad5qomaruddin@gmail.com"
-
-> D:\luciverzone\LuciverZone>git config --global user.name "LuciverZone"
-
-> D:\luciverzone\LuciverZone>git commit -m "initial commit"
-	[master 082ae32] initial commit
-	 1 file changed, 2 insertions(+), 1 deletion(-)
-
-D:\luciverzone\LuciverZone>git push origin master
-	Username for 'https://github.com': ahmadqo
-	Password for 'https://ahmadqo@github.com':
-	Counting objects: 3, done.
-	Writing objects: 100% (3/3), 293 bytes | 0 bytes/s, done.
-	Total 3 (delta 0), reused 0 (delta 0)
-	To https://github.com/ahmadqo/LuciverZone.git
-  	 09b0556..082ae32  master -> master
-
-intal node js.
-> npm install
-
-> node server.js
-
-> localhost:3001 
+## Jika Bekerja Secara Tim
+### Untuk mengetahui perubahan repo
+	$git clone
