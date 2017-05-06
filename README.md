@@ -5,6 +5,9 @@
 	$git config --global user.email "email github"
 	$git config --global user.name "nama akun github"
 
+### Remote github
+	$git remote add origin ...
+
 ### Clone repo yang akan di manage
 	$git clone <url dari repo>
 
@@ -27,8 +30,8 @@
 	$git clone
 
 ## Istilah-Istilah github
-	###upstream
-	###fork
-	###branches
-	###pull request
-	###clone
+	### upstream
+	### fork
+	### branches
+	### pull request
+	### clone
