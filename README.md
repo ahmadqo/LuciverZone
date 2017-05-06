@@ -25,3 +25,10 @@
 ## Jika Bekerja Secara Tim
 ### Untuk mengetahui perubahan repo
 	$git clone
+
+## Istilah-Istilah github
+	###upstream
+	###fork
+	###branches
+	###pull request
+	###clone
