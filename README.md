@@ -24,6 +24,8 @@
 
 ### Push kedalam repo
 	$git push origin master
+	:: origin adalah letak url nya
+	:: dan master adalah nama branch nya
 
 ## Jika Bekerja Secara Tim
 ### Untuk mengetahui perubahan repo
@@ -35,3 +37,12 @@
 	### branches
 	### pull request
 	### clone
+
+	" branch paling banyak berguna jika kita melakukan kolaborasi"
+
+## Label pada saat membuat issues
+
+	- bug > masalah
+	- enhancement > perlu diperbaiki
+	- help wanted > butuh bantuan jika team tidak sanggup memperbaikinya
+	- wontfix > tidak perlu diperbaiki
